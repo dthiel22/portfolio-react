@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Employee Front Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The reason behind this application is to build a portfolio for myself to allow possible eomployers to view my previous works. 
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+When downloaded from github, the package.json will already be prepared. All that needs to be done is run the integrated terminal in the Develop Folder and enter
+```npm i```
+This will download the library necessary to run the program.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+to start the react app on localhost run ```npm run start```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Viewing
 
-### `npm test`
+- On page load you can see a quick about me.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image showing the obve description](./Assets/IMG1.JPG)
 
-### `npm run build`
+- The top left nav bar allows you to go to 'separate page'. This is possible by react routing, which is fake routing essentially and allows a user to go to specfic pages on page load, instead of starting at the about me every single time the page reloads.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image showing the obve description](./Assets/IMG2.JPG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- In my Contact Me page I have a form that will warn users of incorrect inputs in the form and when filled in correctly, they are told so.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image showing the obve description](./Assets/IMG3.JPG)
+![image showing the obve description](./Assets/IMG4.JPG)
 
-### `npm run eject`
+- The resume route brings you to a page that allows you to download my resume and shows the languages I am proficient in.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image showing the obve description](./Assets/IMG5.JPG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The portfolio page shows previous works I have finished, the languages assosciated with them, their links to the deployed site, and their githubs links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image showing the obve description](./Assets/IMG6.JPG)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Lastly, I stlying touch I did was placing my github and linkedIn links on the left of the page, allowing for ease of access. Putting them as a footer made the formatting have too much space
