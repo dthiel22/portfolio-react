@@ -1,20 +1,25 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Kitten from "./pages/Kitten";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
+
 
 function App() {
   return (
-    <div className="app">
-      <Router basename="/router-example">
+    <div className="app // ">
+      <Router basename="/alex-thiel">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/taco" element={<h1>taco page</h1>}/>
-          <Route path="/kitten/:id" element={<Kitten/>}/>
+          <Route path="/Portfolio" element={<Portfolio/>}/>
+          <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/Resume" element={<Resume/>}/>
           <Route path="*" element={<h1>404 page</h1>}/>
         </Routes>
-        <h1>Footer</h1>
+        <Footer />
       </Router>
     </div>
   );

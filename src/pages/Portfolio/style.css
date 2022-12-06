@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project {
+    height: 15rem;
+    width: 100%;
+    background-color: rgb(255, 128, 128);
+    transition: all 1s ease-in-out;
+    opacity: .7;
+}
+
+.project-name{
+    max-width: 15%;
+    min-width: fit-content;
+    padding: 2%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.project:hover {
+    opacity: 1;
+}
+
+.project:hover .project-name {
+    max-width: 100%;
+}
+
+#project1 {
+    background-image: url(/public/gloomhaven-helper.JPG);
+    background-size: cover;
+}
+
+#project2 {
+    background-image: url(/public/lyricalletho.JPG);
+    background-size: cover;
+}
+
+#project3 {
+    background-image: url(/public/weatherapp.JPG);
+    background-size: cover;
+}
+
+.project-git {
+    background-image: url(/public/icons8-github-90.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}

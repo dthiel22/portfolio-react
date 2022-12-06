@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#js{
+    background-image: url(/public/icons8-javascript-logo-100.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+#html{
+    background-image: url(/public/icons8-html-5-96.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+#css{
+    background-image: url(/public/icons8-css3-96.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+#react{
+    background-image: url(/public/icons8-react-80.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}

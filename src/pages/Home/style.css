@@ -1,3 +1,23 @@
-.Home {
-    background:salmon;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#github {
+    background-image: url(/public/icons8-github-90.png);
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+}
+
+#linkedin {
+    background-image: url(/public/icons8-linkedin-circled-90.png);
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+}
+
+#profile {
+    background-image: url(/public/profile.jpg);
+    background-size: 500px;
+    background-position: 45% 30%;
 }
