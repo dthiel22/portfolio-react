@@ -11,7 +11,7 @@ export default function Home() {
           <a id='github' href='https://github.com/dthiel22' target='_blank'></a>
           <a id='linkedin' href='#' target='_blank'></a>  
         </div>
-        <line className='flex h-[80%] md:h-[70%] lg:h-[72%] w-1 border-2 bg-black border-black absolute bottom-0'>
+        <line className='flex h-[80%] md:h-[80%] lg:h-[80%] w-1 border-2 bg-black border-black absolute bottom-0'>
         </line>
 </div>
 

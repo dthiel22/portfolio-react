@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className='flex justify-end'>
         <Link to="/" className="mx-4">About Me</Link>
         <Link to="/portfolio" className="mx-4">Portfolio</Link>
-        <Link to="/contact" className="mx-4">Contact Me</Link>
+        <Link to="/contact" className="mx-4">Contact</Link>
         <Link to='/resume'className="mx-4">Resume</Link>
       </div>
     </div>

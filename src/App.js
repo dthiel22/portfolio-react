@@ -10,7 +10,7 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <div className="app // ">
-      <Router basename="/alex-thiel">
+      <Router basename="/">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
